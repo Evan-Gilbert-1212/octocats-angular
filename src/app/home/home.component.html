@@ -1,0 +1,9 @@
+<ul *ngIf="octocatsData">
+  <li *ngFor="let cat of octocatsData.data">
+    <img class="picture" src="{{ cat.image }}" />
+    <div class="description">
+      <span>#{{ cat.number }}: </span>
+      <span>{{ cat.name }}</span>
+    </div>
+  </li>
+</ul>

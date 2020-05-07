@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+
+  li {
+    width: 22.5%;
+    margin: 1rem;
+
+    img {
+      width: 95%;
+      border: 1px solid lightgrey;
+      border-radius: 10px;
+      padding: 0.5rem;
+    }
+  }
+}
